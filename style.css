@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 70%;
+    background-image: url("bady.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(18, 19, 19, 0.815);
+    padding: 3px;
+    position: fixed;
+    top: 0; /* Fixe l'en-tête en haut de la fenêtre du navigateur */
+    z-index: 100;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+  
+}
+ul{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    font-family: "Arial Rounded MT Bold";
+    text-decoration: none;
+    color: rgb(210, 27, 27);
+    font-size: 30px;
+}
+.logo{
+    width: 18%;
+    height: 9%;
+}
+footer {
+    background-color: #333;
+    color: #544dd6;
+    padding: 20px;
+    text-align: center;
+}
+.titre_home{
+   color: rgb(210, 27, 27);
+   font-size: 40px;
+   margin-left: 400px;
+   margin-top: 160px;
+  
+}
+.titre_home:hover{
+    color: rgba(0, 0, 255, 0.515);
+
+}
+.card_element{
+    
+}
+
+
+
+
+
+
+
+
