@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-style: italic;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 body {
     font-family: Arial, sans-serif;
-    width: 70%;
+    width: 100%;
     background-image: url("bady.jpg");
     background-position: bottom center;
     background-size: cover;
@@ -15,13 +16,11 @@ body {
 
 }
 header{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(18, 19, 19, 0.815);
     padding: 3px;
-    position: fixed;
     top: 0;
     z-index: 100;
 }
@@ -43,7 +42,6 @@ ul{
 }
 #navbar ul li a{
     padding: 15px 20px;
-    font-family: "Arial Rounded MT Bold";
     text-decoration: none;
     color: rgb(210, 27, 27);
     font-size: 20px;
@@ -52,33 +50,31 @@ ul{
     width: 14%;
     height: 6%;
 }
-footer {
-    background-color: #333;
-    color: #544dd6;
-    padding: 20px;
-    text-align: center;
-}
-.titre_home{
-    color: rgb(210, 27, 27);
-    font-size: 30px;
+/*.cont_hom{
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    padding: 20px;
+ }*/
+ .cont_hom{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 20px;
+ }
+.titre_home{
+    font-size: 40px;
+    color: brown;
+    padding: 20px;
 }
-.cont_hom{
-    margin-left: 200px;
-    margin-top: 160px;
-    width: 1100px;
-    height: 500px;
-    padding: 40px;
-    background-color: rgba(89, 80, 224, 0.64);
-    border-radius: 40px;
-}
-.cont_hom:hover{
-    background-color: rgba(135, 231, 180, 0.49);
-    transform: translateY(-15px);
+.choix_jeux{
+    background-color: black;
+    width: 500px;
+    height: 450px;
 }
 
-/* Style du formulaire */
+
+/* Style du formulaire de page login  */
 form {
     width: 300px;
     margin-top: 200px;
