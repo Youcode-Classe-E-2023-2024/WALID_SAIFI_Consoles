@@ -133,12 +133,57 @@ footer{
  .social-links a{
     color: #e00a0a;
  }
+/*page jeux1*/
 
- 
- 
- 
- 
+.cont_jeux1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 150px;
+    border-radius: 10px;
+} .cont_jeux11{
+    background-color: rgba(0, 0, 0, 0.721);
+    padding: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: 20px;
+}
+.img_j1{
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+}
+.jeux_vd_text{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+.vd_text{
+   /* background-color: #e00a0a;*/
+    width: 600px;
+    padding: 20px;
+    color: aliceblue;
+}
+.blok_jeux{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+   /* background-color: aliceblue;*/
+    width: 300px;
+    padding-left: 150px;
+}
+.card_jeux{
+    padding: 30px;
+}
+.img_card{
+    width: 150px;
+    height: 200px;
+}
+.img_card:hover{
 
+}
 /* Style du formulaire de page login  */
 form {
     width: 300px;
