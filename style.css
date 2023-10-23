@@ -7,7 +7,7 @@
     
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: cursive;
     width: 100%;
     background-image: url("bady.jpg");
     background-position: bottom center;
@@ -174,11 +174,11 @@ footer{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 150px;
+    padding: 30px;
     border-radius: 10px;
 } .cont_jeux11{
     background-color: rgba(0, 0, 0, 0.721);
-    padding: 60px;
+    padding: 10px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -197,6 +197,7 @@ footer{
 }
 .vd_text{
    /* background-color: #e00a0a;*/
+   font-size: 23px;
     width: 600px;
     padding: 20px;
     color: aliceblue;
@@ -204,18 +205,17 @@ footer{
 .blok_jeux{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
    /* background-color: aliceblue;*/
     width: 300px;
-    padding-left: 150px;
+    padding-left: 100px;
+    padding-top: 400px;
 }
 .card_jeux{
-    padding: 30px;
-    
+    padding: 10px;   
 }
 .img_card{
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     transition:transform 0.9s;
 }
 .img_card:hover{
