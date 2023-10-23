@@ -133,6 +133,41 @@ footer{
  .social-links a{
     color: #e00a0a;
  }
+ @media (max-width: 768px){
+    .cont_hom{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding: 90px;
+     }
+    .titre_home{
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        padding: 30px;
+    }
+    .choix_jeux{
+        background-color: rgba(116, 108, 228, 0.616);
+        width: 270px;
+        height: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: wrap;
+        align-content: space-between;
+    
+    }
+    .img_jeux{
+        width: 170px;
+        height: 250px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .social-links{  
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+     }
+ }
 /*page jeux1*/
 
 .cont_jeux1{
