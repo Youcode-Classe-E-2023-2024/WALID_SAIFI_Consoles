@@ -176,13 +176,19 @@ footer{
 }
 .card_jeux{
     padding: 30px;
+    
 }
 .img_card{
     width: 150px;
     height: 200px;
+    transition:transform 0.9s;
 }
 .img_card:hover{
+    transform: translateY(-10px);
 
+}
+.video_Youtube{
+    padding: 40px;
 }
 /* Style du formulaire de page login  */
 form {
@@ -196,6 +202,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 50px;
 }
+
 
 
 label {
