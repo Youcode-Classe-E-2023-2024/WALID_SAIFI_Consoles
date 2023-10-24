@@ -312,30 +312,9 @@ color: #e00a0a;
   }
 }
 
-/* Style du formulaire de page login  */
-form {
-    width: 300px;
-    margin-top: 200px;
-    margin-left: 600px;
-    text-align: center;
-    background-color: rgba(111, 109, 210, 0.72);
-    padding-top: 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 50px;
-}
-
-
-
-label {
-    display: inline-block;
-    width: 100px;
-    font-weight: bold;
-    margin-right: 10px;
-    text-align: right;
-}
+/*la page abonnement*/
 .cont_abonement{
-    padding-bottom: 690px;
+    padding-bottom: 740px;
     padding-top: 200px;
     display: flex;
     justify-content: center;
@@ -384,6 +363,116 @@ label {
     border: none;
     cursor: pointer;
 }
+
+/*la page login */
+.cont_login{
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    background-color: #000000; /* Couleur de fond du conteneur */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(209, 52, 52, 0.1); /* Ombre */
+    text-align: center;
+    width: 300px;
+    height: 350px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+    color: red; /* Couleur du texte du label en rouge */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid red; /* Couleur de la bordure de l'input en rouge */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(236, 0, 0); /* Couleur de fond du bouton en noir */
+    color: white; /* Couleur du texte du bouton en blanc */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333; /* Couleur de fond du bouton au survol en gris foncé */
+}
+/*la page historique*/
+.cont_hist{
+    padding: 110px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card_host{
+    padding: 10px;
+        background-color: rgba(245, 180, 83, 0.804);
+        width: 400px;
+        border-radius: 20px;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 700px;
+        height: auto;
+}
+.colone_1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.colone_2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 180px;
+}
+.colone_3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 180px;
+}
+.colone_4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 180px;
+}
+.card_hist{
+    border: 2px solid #ff1e00;
+     gap: 20px;
+     padding: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width: 610px){
     .cont_abonement{
         padding-top: 600px;
@@ -415,10 +504,19 @@ label {
         flex-flow: column wrap;
         gap: 20px;
     }
-
+    /*receponceve de page histrorique*/
+    .card_host{
+            background-color: rgba(245, 180, 83, 0.804);
+            border-radius: 20px;
+            height: 1100px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+    }
 }
-
-
 
 
 
