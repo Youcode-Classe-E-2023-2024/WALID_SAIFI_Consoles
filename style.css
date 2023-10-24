@@ -311,6 +311,7 @@ color: #e00a0a;
     height: 150px;
   }
 }
+
 /* Style du formulaire de page login  */
 form {
     width: 300px;
@@ -333,6 +334,93 @@ label {
     margin-right: 10px;
     text-align: right;
 }
+.cont_abonement{
+    padding-bottom: 690px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.cont_crad{
+    padding: 50px;
+    background-color: rgba(107, 55, 219, 0.804);
+    width: 800px;
+    border-radius: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.cont_crad_1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+.cont_crad_2{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+.card{
+    border: 2px solid #3498db;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+}
+.price {
+    font-size: 24px;
+    color: #e74c3c;
+}
+
+.subscribe-button {
+    background-color: #ed7440;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+@media(max-width: 610px){
+    .cont_abonement{
+        padding-top: 600px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 590px;
+    }
+    .cont_crad{
+        padding: 10px;
+        background-color: rgba(107, 55, 219, 0.804);
+        width: 400px;
+        border-radius: 20px;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .cont_crad_1{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 20px;
+    }
+    .cont_crad_2{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 20px;
+    }
+
+}
+
+
+
+
 
 
 
