@@ -66,6 +66,10 @@ body {
         top: 20px;
         right: 20px;
     }
+    .img_jeux:hover{
+        transform: translateY(-3%);
+           
+    }
     #check {display: none;}
 /*page jeux1*/
 
