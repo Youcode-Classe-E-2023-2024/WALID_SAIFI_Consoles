@@ -128,31 +128,12 @@ body {
 .video_Youtube{
     padding: 40px;
 }
-@media(max-width: 610px){
-    .menu {
-        border-radius: 10px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: auto;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color2);
-        transition: all 0.2s ease-in-out;
-        background-color: rgba(0, 0, 0, 0.853);
-    }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
-}
 .logo{
-width: 14%;
-height: 15%;
-}
+    width: 14%;
+    height: 15%;
+    }
+
+
 /*.cont_hom{
 display: flex;
 flex-flow: row wrap;
@@ -231,6 +212,32 @@ justify-content: space-between;
 }
 .social-links a{
 color: #e00a0a;
+}
+
+@media(max-width: 610px){
+    .logo{
+        width: 30%;
+        height: 30%;
+    }
+    .menu {
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.853);
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
 }
 @media (max-width: 610px){
     .cont_hom{
@@ -475,6 +482,10 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
 @media(max-width: 610px){
     .cont_abonement{
         padding-top: 600px;
