@@ -4,7 +4,6 @@
     font-style: italic;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 body {
     font-family: cursive;
@@ -176,7 +175,6 @@ border-radius: 30px;
 .anime_title:hover{
 background-color: black;
 }
-
 .choix_jeux{
 background-color: rgba(116, 108, 228, 0.616);
 width: 790px;
@@ -186,7 +184,6 @@ display: flex;
 flex-flow: row wrap;
 align-items: center;
 justify-content: space-evenly;
-
 }
 .img_jeux{
 width: 200px;
